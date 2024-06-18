@@ -3,3 +3,6 @@ class Library_main_building:
         self.adress=adress
         self.name=name
         self.book_number=book_number
+
+print("welcome to the library")
+print("you can find every book from your imagination")
