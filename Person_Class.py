@@ -1,4 +1,4 @@
-class person:
+class Person:
     def __init__(self,name,id):
         self.name=name
         self.id=id
@@ -6,7 +6,7 @@ class person:
     def __str__(self):
         return f"Name {self.name},id {self.id}"
 
-class patron(person):
+class Patron(Person):
     def __init__(self, name, patron_id):
         super().__init__(name,patron_id)
         self.borrowed_books= []

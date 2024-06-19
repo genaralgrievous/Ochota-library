@@ -1,5 +1,5 @@
-from Person_Class import person
-class Librarian(person):
+from Person_Class import Person
+class Librarian(Person):
     def __init__(self, name, librarian_id):
         self.name= name
         self.librarian_id = librarian_id
