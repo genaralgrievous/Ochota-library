@@ -1,3 +1,4 @@
-my -m venv      
-my -m venv
-my -m venv
+venv/
+__pycach__/
+*.pyc
+.DS_Store
